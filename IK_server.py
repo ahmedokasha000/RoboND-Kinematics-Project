@@ -25,7 +25,7 @@ def init_parameters():
     #Declaring Joints Parameters & sympols
     global r, p, y   
     global q1, q2, q3, q4, q5, q6, q7 
-    global T0_1,T1_2,T2_3,T0_3,T0_7,Rrpy0
+    global T0_3,T0_7,Rrpy0
     
     q1, q2, q3, q4, q5, q6, q7 = symbols('q1:8')
     a0, a1, a2, a3, a4, a5, a6 = symbols('a0:7')
@@ -101,7 +101,7 @@ def rot_z(q):
 def handle_calculate_IK(req):
     #gobal variables that we will need from init fx
     global q1, q2, q3, q4, q5, q6, q7 
-    global T0_1,T1_2,T2_3,T0_3,T0_7,Rrpy0
+    global T0_3,T0_7,Rrpy0
     global r, p, y 
     
       
